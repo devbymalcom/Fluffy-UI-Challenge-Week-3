@@ -1,0 +1,45 @@
+name: fluffy_challenge_week_3
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  animations: 
+  collection: ^1.16.0
+  cupertino_icons: ^1.0.2
+  dotted_border:
+  enefty_icons: 
+  flex_color_scheme: 
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.4.0
+  flutter_screwdriver: 
+  image: 
+  intl: 
+  screwdriver: 
+  
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: AldotheApache
+      fonts:
+        - asset: assets/fonts/AldotheApache.ttf
+ 
